@@ -8,7 +8,7 @@ const navbar = () => {
       <div className='flex justify-between text-white pt-4 px-4'>
         <div className=''>
           <div className=' border-b-2 sm:border-b-4 w-8 sm:w-16 border-green-600 rounded-lg' />
-          <h1 className='text-sm font-bold sm:text-2xl'>Dragnet Digital</h1>
+          <h1 className='text-xl font-bold sm:text-2xl'>Dragnet Digital</h1>
         </div>
 
         <ul className=''>
@@ -40,7 +40,7 @@ const navbar = () => {
           <h1 className='text-lg sm:text-5xl text-white rellax' data-rellax-speed="10">
             Dragnet Digital Services
           </h1>
-          <p className=" leading-loose text-white pr-20 text-xs sm:text-sm pt-4 rellax " data-rellax-speed="5">
+          <p className=" leading-loose text-white sm:pr-20 text-xs sm:text-sm pt-4 rellax " data-rellax-speed="5">
           Building software to improve lives with the aim of harnessing technology in human capacity development.
           </p>
           </div>
