@@ -499,7 +499,7 @@ header {
     
   background-size: cover;
   background-position: center;
-  min-height: 900px;
+  min-height: 400px;
   padding-right: 10px;
   background-blend-mode: multiply;
   position: relative;

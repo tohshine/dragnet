@@ -6,7 +6,7 @@ const task = () => {
       <div className=' flex flex-col justify-center items-center px-4' id="task">
         <div className=' max-w-6xl w-full pt-16'>
           <div className=''>
-            <div className=' border-b-2 sm:border-b-4 w-8 sm:w-16 border-orange-600 rounded-lg' />
+            <div className=' border-b-2 sm:border-b-4 w-8 sm:w-16 border-green-600 rounded-lg' />
             <h1 className='text-white text-lg sm:text-4xl'>Task</h1>
           </div>
 
