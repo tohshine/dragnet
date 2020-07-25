@@ -4,7 +4,7 @@ const team = () => {
   return (
     <div className='pt-16 pb-20'>
       <div className='flex flex-col justify-center items-center'>
-        <div className=' border-l-4 pl-2 border-green-500 rounded-lg items-center'>
+        <div className=' border-l-4 pl-2 border-green-500  items-center'>
           <p className='text-orange-600'>MEET OUR</p>
           <p className='text-gray-900'>TEAM MEMBERS</p>
         </div>
