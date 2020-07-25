@@ -505,9 +505,7 @@ header {
   position: relative;
 }
 
-image{
-  background: rgba(41, 2, 8, 0.74)
-}
+
 
 ::-webkit-scrollbar {
   width: 0px;

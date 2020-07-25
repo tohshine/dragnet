@@ -18,11 +18,7 @@ const team = () => {
             />
 
             <p className=' leading-loose font-serif sm:pl-4'>
-              <sub className='sm:text-6xl text-3xl text-gray-400 '>"</sub> Lorem
-              ipsum dolor, sit amet consectetur adipisicing elit. Nulla
-              nesciunt, earum dolorum quisquam ullam quaerat iste doloribus
-              temporibus ut? Vitae nobis perferendis maiores, aperiam quod fuga
-              corrupti. Impedit, eaque perspiciatis?
+              <sub className='sm:text-6xl text-3xl text-gray-400 '>"</sub> Maryann Oborghabor Owineholds a B.sc degree in social work at the university of Benin in Nigeria.
               <sub className='sm:text-6xl text-3xl text-gray-400'>"</sub>
             </p>
           </div>

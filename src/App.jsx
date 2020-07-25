@@ -4,6 +4,7 @@ import Index from './components/about'
 import Navbar from './components/navbar'
 import Task from './components/task'
 import Team from './components/team'
+import Contact from './components/contact'
 import './dist/app.css'
 import './dist/style.css'
 
@@ -17,6 +18,7 @@ const App = () => {
             <Index/>
             <Task/>
             <Team/>
+            <Contact/>
         </div>
     )
 }
