@@ -3,7 +3,7 @@ import Rellax from 'rellax'
 import Index from './components/about'
 import Navbar from './components/navbar'
 import Task from './components/task'
-
+import Team from './components/team'
 import './dist/app.css'
 import './dist/style.css'
 
@@ -12,10 +12,11 @@ const App = () => {
          new Rellax('.rellax')
     }, [])
     return (
-        <div className=" flex flex-col justify-center items-center text-gray-700 relax bg-gray-200 rellax" data-rellax-xs-speed="1" data-rellax-xs-speed="0">
+        <div className=" flex flex-col justify-center items-center text-gray-700 relax bg-gray-200 " data-rellax-xs-speed="10" data-rellax-xs-speed="0">
             <Navbar/>
             <Index/>
             <Task/>
+            <Team/>
         </div>
     )
 }
