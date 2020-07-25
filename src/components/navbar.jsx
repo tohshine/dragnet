@@ -40,7 +40,7 @@ const navbar = () => {
           <h1 className='text-lg sm:text-5xl text-white rellax' data-rellax-speed="10">
             Dragnet Digital Services
           </h1>
-          <p className=" leading-loose text-white sm:pr-20 text-xs sm:text-sm pt-4 rellax " data-rellax-speed="5">
+          <p className=" leading-loose text-white text-xs sm:text-sm pt-2 rellax " data-rellax-speed="5">
           Building software to improve lives with the aim of harnessing technology in human capacity development.
           </p>
           </div>

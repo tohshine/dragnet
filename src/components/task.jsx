@@ -16,7 +16,7 @@ const task = () => {
               <span className='bg-gray-500 w-32 h-32 text-xl text-gray-900 rounded-full p mr-4'>
                 1 {""}
               </span>
-              <span className='text-orange-500'> SHE App-</span>{" "}
+              <span className='text-red-400'> SHE App-</span>{" "}
               <span className='text-white leading-loose text-xs '>
                 Safety/Security,Health and Environment App
               </span>
@@ -27,7 +27,7 @@ const task = () => {
               <span className='bg-gray-500 w-32 h-32 text-xl text-gray-900 rounded-full p mr-4'>
                 2 {""}
               </span>
-              <span className='text-orange-500'> Grace App-</span>{" "}
+              <span className='text-red-400'> Grace App-</span>{" "}
               <span className='text-white leading-loose text-xs '>
                 With intentionof getting people closer to God
               </span>
@@ -38,7 +38,7 @@ const task = () => {
               <span className='bg-gray-500 w-32 h-32 text-xl text-gray-900 rounded-full p mr-4'>
                 3 {""}
               </span>
-              <span className='text-orange-500'> Unity App-</span>{" "}
+              <span className='text-red-400'> Unity App-</span>{" "}
               <span className='text-white leading-loose text-xs '>
                 An App to help solve education challenges in Nigeria
               </span>
