@@ -46,7 +46,7 @@ const navbar = () => {
           </div>
        
 
-          <div className="flex justify-center items-center pt-8 sm:pt-32 text-white">
+          <div className="flex justify-center items-center pt-8 sm:pt-32 text-white sm:block hidden">
               <div className="grid-3">
            <div className=" w-48 h-64 rounded-lg rellax" data-rellax-speed="1" data-rellax-xs-speed="3" style={{backgroundImage:"url("+ image1 +")",backgroundPosition:'center',backgroundSize:"cover"}}>
              <p className="bg-green-600 capitalize p text-xs sm:text-sm ">building software</p>

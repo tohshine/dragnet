@@ -7,6 +7,7 @@ import Team from './components/team'
 import Contact from './components/contact'
 import './dist/app.css'
 import './dist/style.css'
+import 'react-awesome-slider/dist/styles.css';
 
 const App = () => {
     useEffect(() => {

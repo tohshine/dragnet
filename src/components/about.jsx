@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 const About = () => {
   return (
-    <div className='w-full px-4 pt-4 sm:pt-32 pb-16' id="about">
+    <div className='w-full px-4 pt-4 sm:pt-32 ' id="about">
       <div className='flex flex-col justify-center items-center'>
         <div className=' max-w-6xl w-full '>
           <div className=' border-b-2 sm:border-b-4 w-8 sm:w-16 border-green-600 rounded-lg' />
@@ -17,7 +17,7 @@ const About = () => {
               }}
             ></div>
 
-            <p className='sm:pr-32 text-xs sm:text-sm leading-loose rellax' data-rellax-speed="1" data-rellax-xs-speed="0">
+            <p className='sm:pr-32 text-sm sm:text-lg leading-loose rellax' data-rellax-speed="1" data-rellax-xs-speed="0">
               Dragnet Digital Services is a software company that harness modern
               technology to maximize profits with a formidable organizational
               system.This Services was born out of passion to empower lives by
