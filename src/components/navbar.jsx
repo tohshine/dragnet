@@ -1,8 +1,7 @@
 import React from "react";
 
 const navbar = () => {
-    const image1 = "https://res.cloudinary.com/dlecos9op/image/upload/c_scale,w_1400/v1595582127/oac8clvu98zjtnqu3rfc.jpg"
-    const image2 = "https://res.cloudinary.com/dlecos9op/image/upload/c_scale,w_1400/v1595584346/o6twf1spuytxhrnwamzc.jpg"
+    
    return (
     <header className='w-full bg-fixed '>
       <div className='flex justify-between text-white pt-4 px-4'>

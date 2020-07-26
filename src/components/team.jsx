@@ -12,7 +12,7 @@ const Team = () => {
     if (profile.length === count + 1) return setcount(0);
     setcount(count + 1);
   };
-  console.log(count);
+  
   return (
     <header className=' pb-20 w-full  bg-fixed'>
       <div className='flex flex-col justify-center items-center '>

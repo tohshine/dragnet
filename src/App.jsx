@@ -1,4 +1,4 @@
-import React,{useEffect,Fragment} from 'react'
+import React,{useEffect} from 'react'
 import Rellax from 'rellax'
 import Index from './components/about'
 import Navbar from './components/navbar'
@@ -7,14 +7,18 @@ import Team from './components/team'
 import Contact from './components/contact'
 import './dist/app.css'
 import './dist/style.css'
-import 'react-awesome-slider/dist/styles.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const App = () => {
     useEffect(() => {
          new Rellax('.rellax')
-    }, [])
+         AOS.init({
+            duration: 1200
+          });
+    })
     return (
-        <div className=" flex flex-col justify-center items-center text-gray-700 relax bg-gray-200 " data-rellax-xs-speed="10" data-rellax-xs-speed="0">
+        <div className=" flex flex-col justify-center items-center text-gray-700 relax bg-gray-200 " >
             <Navbar/>
             <Index/>
             <Task/>

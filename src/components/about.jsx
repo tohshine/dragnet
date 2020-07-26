@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 const About = () => {
   return (
@@ -9,11 +9,12 @@ const About = () => {
           <h1 className='text-gray-900 text-lg sm:text-4xl'>About</h1>
           <div className='grid-2 pt-4 sm:pt-8'>
             <div
-              className=' h-64  rounded-lg'
+              className=' w-full  rounded-lg'
               style={{
                 backgroundImage: "url('../organo.jpg')",
                 backgroundPosition: "center",
                 backgroundSize: "cover",
+              
               }}
             ></div>
 
@@ -34,8 +35,8 @@ const About = () => {
             </h1>
             <div className='pt-16'>
               <div className='grid-3'>
-                <div className='shadow-lg bg-white  ronded-lg border-0 rellax' data-rellax-speed="1" data-rellax-xs-speed="0">
-                  <div className='pt-8 w-full h-64'style={{backgroundImage:"url(../../ideas.jpg)",backgroundPosition: "center",
+                <div className='shadow-lg bg-white rounded-lg ronded-lg border-0 rellax' data-rellax-speed="1" data-rellax-xs-speed="0">
+                  <div className='pt-8 w-full h-64 rounded-t-lg rounded-t-lg'style={{backgroundImage:"url(../../ideas.jpg)",backgroundPosition: "center",
                 backgroundSize: "cover",}}></div>
                   <div className="p">
                   <h1 className='text-green-700 pt-8 font-bold text-lg'>Vision</h1>
@@ -44,8 +45,8 @@ const About = () => {
                   </p>
                   </div>
                 </div>
-                 <div className='shadow-lg bg-white  ronded-lg border-0 rellax' data-rellax-speed="2" data-rellax-xs-speed="0">
-                  <div className='pt-8 w-full h-64'style={{backgroundImage:"url(../../mission.jpg)",backgroundPosition: "center",
+                 <div className='shadow-lg bg-white rounded-lg ronded-lg border-0 rellax' data-rellax-speed="2" data-rellax-xs-speed="0">
+                  <div className='pt-8 w-full h-64 rounded-t-lg'style={{backgroundImage:"url(../../mission.jpg)",backgroundPosition: "center",
                 backgroundSize: "cover",}}></div>
                   <div className="p">
                   <h1 className='text-green-700 pt-8 font-bold text-lg'>Mission</h1>
@@ -54,8 +55,8 @@ const About = () => {
                   </p>
                   </div>
                 </div>
-                 <div className='shadow-lg bg-white  ronded-lg border-0 rellax' data-rellax-speed="3" data-rellax-xs-speed="0">
-                  <div className='pt-8 w-full h-64'style={{backgroundImage:"url(../../team.jpg)",backgroundPosition: "center",
+                 <div className='shadow-lg bg-white rounded-lg ronded-lg border-0 rellax' data-rellax-speed="3" data-rellax-xs-speed="0">
+                  <div className='pt-8 w-full h-64 rounded-t-lg'style={{backgroundImage:"url(../../team.jpg)",backgroundPosition: "center",
                 backgroundSize: "cover",}}></div>
                   <div className="p">
                   <h1 className='text-green-700 pt-8 font-bold text-lg'>Commitment</h1>
