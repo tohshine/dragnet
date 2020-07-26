@@ -7,7 +7,7 @@ const About = () => {
         <div className=' max-w-6xl w-full '>
           <div className=' border-b-2 sm:border-b-4 w-8 sm:w-16 border-green-600 rounded-lg' />
           <h1 className='text-gray-900 text-lg sm:text-4xl'>About</h1>
-          <div className='grid-2 pt-4 sm:pt-8'>
+          <div className='grid-2  sm:pt-8'>
             <div
               className=' w-full  rounded-lg'
               style={{
@@ -29,7 +29,7 @@ const About = () => {
             </p>
           </div>
 
-          <section className='pt-32'>
+          <section className='pt-16 sm:pt-32'>
             <h1 className='text-gray-900 text-sm text-center'>
              Our Goals
             </h1>
