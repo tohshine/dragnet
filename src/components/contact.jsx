@@ -15,12 +15,12 @@ const contact = () => {
             </i>
             <i className='fab fa-instagram text-red-500 text-lg pb-4'>
               <span className='text-white pl-4 text-sm'>
-                https://www.Instagram.com/dragnetdigital/
+                @dragnetdigital
               </span>
             </i>
             <i className='fab fa-facebook text-blue-500 text-lg pb-4 '>
               <span className='text-white pl-4 text-sm tracking-wide'>
-                https://www.Facebook.com/dragnetdigital
+                @dragnetdigital
               </span>
             </i>
             <i className='fas fa-phone text-blue-500 text-lg pb-4'>
