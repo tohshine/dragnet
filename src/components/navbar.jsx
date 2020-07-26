@@ -33,11 +33,11 @@ const navbar = () => {
         </ul>
       </div>
 
-      <section className=' flex flex-col justify-center items-center pt-8 px-4 sm:pt-32'>
+      <section className=' flex flex-col justify-center items-center pt-20 px-4 sm:pt-32'>
         <div className='  max-w-6xl w-full  '>
           
-          <div className="text-center">
-          <h1 className='text-lg sm:text-5xl text-white rellax' data-rellax-speed="10">
+          <div className="text-center ">
+          <h1 className='text-2xl sm:text-5xl text-white rellax' data-rellax-speed="10">
             Dragnet Digital Services
           </h1>
           <p className=" leading-loose text-white text-xs sm:text-sm pt-2 rellax " data-rellax-speed="5">
@@ -45,20 +45,6 @@ const navbar = () => {
           </p>
           </div>
        
-
-          <div className="flex justify-center items-center pt-8 sm:pt-32 text-white sm:block hidden">
-              <div className="grid-3">
-           <div className=" w-48 h-64 rounded-lg rellax" data-rellax-speed="1" data-rellax-xs-speed="3" style={{backgroundImage:"url("+ image1 +")",backgroundPosition:'center',backgroundSize:"cover"}}>
-             <p className="bg-green-600 capitalize p text-xs sm:text-sm ">building software</p>
-           </div>
-           <div className=" w-48 h-64 rounded-lg rellax"  data-rellax-speed="3" data-rellax-xs-speed="3" style={{backgroundImage:"url("+ image2 +")",backgroundPosition:'center',backgroundSize:"cover"}}>
-           <p className="bg-green-600 capitalize p text-xs sm:text-sm ">changing lives</p>
-           </div>
-           <div className=" w-48 h-64 rounded-lg rellax" data-rellax-speed="7" data-rellax-xs-speed="3" style={{backgroundImage:"url("+ image1 +")",backgroundPosition:'center',backgroundSize:"cover"}}>
-           <p className="bg-green-600 capitalize p text-xs sm:text-sm ">dedicated developers</p>
-           </div>
-              </div>
-          </div>
         </div>
       </section>
     </header>

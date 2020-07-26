@@ -25,6 +25,9 @@ const contact = () => {
             </i>
             <i className='fas fa-phone text-blue-500 text-lg pb-4'>
               <span className='text-white pl-4 text-sm '>+2349015630233</span>
+            </i> 
+            <i className='fab fa-twitter text-blue-500 text-lg pb-4'>
+              <span className='text-white pl-4 text-sm '>@dragnetservices</span>
             </i>
           </div>
         </div>

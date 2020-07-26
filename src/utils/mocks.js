@@ -64,7 +64,7 @@ export const profile = [
   },
   {
     id:10,
-    name:"Sonia Ewere,",
+    name:"Sonia Ewere",
     image:`${require("../components/images/sonia.jpeg")}`,
     description:"Sonia Ewere, is a writer, and a public speaker; who has caused through her articles and Podcast phenomenal change.She's also the founder of SoniTalks Podcast consultancy, and the producer of The new me show, a podcast show centered on helping youths turn their mess to messages, living right and becoming creative in life.Sonia is an energetic, highly multifaceted, success and result driven individual, whose ultimate goal is to proffer solutions and add value to specific projects."
   },

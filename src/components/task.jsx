@@ -32,7 +32,7 @@ const task = () => {
               </span>
               <span className='text-red-400'> Grace App-</span>{" "}
               <span className='text-black leading-loose text-lg '>
-                With intentionof getting people closer to God
+                With intention of getting people closer to God
               </span>
             </span>
           </div>
