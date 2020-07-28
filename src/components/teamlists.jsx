@@ -3,7 +3,7 @@ import React from "react";
 import { profile } from "../utils/mocks";
 
 const Teamlists = ({ count }) => {
-  const { name, image, description } = profile[count];
+  const { name, image, description,profession } = profile[count];
 
   return (
     <div className='flex flex-col justify-center items-center'>
@@ -23,8 +23,11 @@ const Teamlists = ({ count }) => {
            
             style={{ backgroundColor: "rgba(0, 0, 0, 0.5)", height: "70vh" }}
           >
-            <p className='text-2xl text-white  absolute pl-2 bottom-0 sm:hidden'>
+            <p className='text-2xl text-white pb-8 absolute pl-2 bottom-0 sm:hidden'>
               {name}
+            </p>
+             <p className='text-sm text-white  absolute pl-2 bottom-0 sm:hidden'>
+              {profession}
             </p>
           </div>
         </div>
