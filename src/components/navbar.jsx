@@ -7,7 +7,7 @@ const navbar = () => {
       <div className='flex justify-between text-white pt-4 px-4'>
         <div className=''>
           <div className=' border-b-2 sm:border-b-4 w-8 sm:w-16 border-green-600 rounded-lg' />
-          <h1 className='text-xl font-bold sm:text-2xl'>Dragnet Digital</h1>
+          <h1 className='text-xl font-bold sm:text-2xl'>Dragnet </h1>
         </div>
 
         <ul className=''>
