@@ -1,6 +1,6 @@
 import React from "react";
 
-import { profile } from "../utils/mocks";
+import { profile } from "../../utils/mocks";
 
 const Teamlists = ({ count }) => {
   const { name, image, description,profession } = profile[count];

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import TeamList from "./teamlists";
-import { profile } from "../utils/mocks";
+import { profile } from "../../utils/mocks";
 const Team = () => {
   const [count, setcount] = useState(0);
 
@@ -14,7 +14,7 @@ const Team = () => {
   };
   
   return (
-    <header className=' pb-20 w-full  bg-fixed'>
+    <header className=' pb-20 w-full  bg-fixed '>
       <div className='flex flex-col justify-center items-center '>
         <div className='   items-center sm:text-lg pt-8'>
          <div className="border-l-4 pl-2 border-green-500">
