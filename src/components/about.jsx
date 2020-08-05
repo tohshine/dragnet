@@ -9,13 +9,11 @@ const About = () => {
           <h1 className='text-gray-900 text-lg sm:text-4xl'>About</h1>
           <div className='grid-2  sm:pt-8'>
             <div
-              className=' w-full  rounded-lg'
-              style={{
-                backgroundImage: "url('../organo.jpg')",
-                backgroundPosition: "center",
-                backgroundSize: "cover",
-              }}
-            ></div>
+              className=' w-full  rounded-lg about__image'
+         
+            >
+              <img  className="rounded-lg" src="../organo.jpg" alt=""/>
+            </div>
 
             <p
               className='sm:pr-32 text-sm sm:text-lg md:pr-0 leading-loose rellax'

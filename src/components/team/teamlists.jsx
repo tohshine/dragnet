@@ -15,7 +15,9 @@ const Teamlists = ({ count }) => {
             backgroundImage: `url(${image})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
-            height: "70vh",
+            
+            width:"100%",
+            objectFit:"contain"
           }}
         >
           <div
